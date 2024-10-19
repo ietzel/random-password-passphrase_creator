@@ -5,5 +5,5 @@ fn main() {
         .map(char::from)
         .collect();
     println!("{}", s);
-    println!("If this is insufficient, come up with a passphrase based on a easily-remebered sentence no-spaced.", s);
+    println!("If this is insufficient, come up with a passphrase based on a easily-remebered sentence no-spaced.");
 }
